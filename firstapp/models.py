@@ -114,3 +114,5 @@ class Subject(Common_Fields):
 
 
 ###########################################################################33
+class Githubpractic(models.Model):
+    firstname = models.CharField(max_length=200)
